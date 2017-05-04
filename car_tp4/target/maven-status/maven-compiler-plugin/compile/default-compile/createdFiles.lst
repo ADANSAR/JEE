@@ -1,0 +1,15 @@
+car/tp4/entity/Book.class
+car/tp4/entity/BookBean.class
+car/tp4/servlet/InitServlet.class
+car/tp4/servlet/AfficherPanier.class
+car/tp4/entity/Panier.class
+car/tp4/servlet/ValiderPanier.class
+car/tp4/entity/PanierBean.class
+car/tp4/servlet/AuthorsServlet.class
+car/tp4/servlet/AfficherCommandes.class
+car/tp4/servlet/ChercheLivreParAuteur.class
+car/tp4/servlet/RetirerPanier.class
+car/tp4/servlet/SortBooks.class
+car/tp4/servlet/BookServlet.class
+car/tp4/servlet/ChercheLivre.class
+car/tp4/servlet/AddPanier.class

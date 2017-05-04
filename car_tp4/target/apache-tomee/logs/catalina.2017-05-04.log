@@ -1,0 +1,512 @@
+mai 04, 2017 1:41:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /opt/oracle/instantclient_11_2:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+mai 04, 2017 1:41:38 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+mai 04, 2017 1:41:38 PM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+mai 04, 2017 1:41:39 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.force-reloadable=true'
+mai 04, 2017 1:41:39 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'tomee.remote.support=true'
+mai 04, 2017 1:41:39 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: OpenEJB http://openejb.apache.org/
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Startup: Thu May 04 13:41:39 CEST 2017
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Version: 4.7.1
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build date: 20140912
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: Build time: 01:43
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: ********************************************************************************
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.home = /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee
+mai 04, 2017 1:41:39 PM org.apache.openejb.OpenEJB$Instance <init>
+INFOS: openejb.base = /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee
+mai 04, 2017 1:41:39 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+mai 04, 2017 1:41:39 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFOS: Succeeded in installing singleton service
+mai 04, 2017 1:41:39 PM org.apache.openejb.config.ConfigurationFactory init
+INFOS: openejb configuration file is '/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/conf/tomee.xml'
+mai 04, 2017 1:41:39 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+mai 04, 2017 1:41:39 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+mai 04, 2017 1:41:39 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.system.apps=true'
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: openejb
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Using openejb.deploymentId.format '{ejbName}'
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "openejb" loaded.
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating TransactionManager(id=Default Transaction Manager)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating SecurityService(id=Tomcat Security Service)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: openejb
+mai 04, 2017 1:41:40 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFOS: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=openejb)
+mai 04, 2017 1:41:40 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS:   ** Bound Services **
+mai 04, 2017 1:41:40 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFOS:   NAME                 IP              PORT  
+mai 04, 2017 1:41:40 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: -------
+mai 04, 2017 1:41:40 PM org.apache.openejb.server.SimpleServiceManager start
+INFOS: Ready!
+mai 04, 2017 1:41:40 PM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 2396 ms
+mai 04, 2017 1:41:40 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFOS: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+mai 04, 2017 1:41:40 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=UserDatabase)
+mai 04, 2017 1:41:40 PM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+mai 04, 2017 1:41:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+mai 04, 2017 1:41:40 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT.war de l'application web
+mai 04, 2017 1:41:40 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFOS: ------------------------- localhost -> /
+mai 04, 2017 1:41:40 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracting jar: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT.war
+mai 04, 2017 1:41:40 PM org.apache.openejb.util.JarExtractor extract
+INFOS: Extracted path: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:41:40 PM org.apache.openejb.util.OptionsLog info
+INFOS: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb BookBean: EjbDeployment(deployment-id=BookBean)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb PanierBean: EjbDeployment(deployment-id=PanierBean)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig createContainer
+INFOS: Auto-creating a container for bean .Comp483472573: Container(type=MANAGED, id=Default Managed Container)
+mai 04, 2017 1:41:41 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Container(id=Default Managed Container)
+mai 04, 2017 1:41:41 PM org.apache.openejb.core.managed.SimplePassivater init
+INFOS: Using directory /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/temp for stateful session passivation
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=book-pu)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default JDBC Database, type=Resource, provider-id=Default JDBC Database)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFOS: Auto-creating a Resource with id 'Default JDBC Database' of type 'DataSource for 'book-pu'.
+mai 04, 2017 1:41:41 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=Default JDBC Database)
+mai 04, 2017 1:41:41 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFOS: Disabling testOnBorrow since no validation query is provided
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFOS: Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig logAutoCreateResource
+INFOS: Auto-creating a Resource with id 'Default Unmanaged JDBC Database' of type 'DataSource for 'book-pu'.
+mai 04, 2017 1:41:41 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFOS: Creating Resource(id=Default Unmanaged JDBC Database)
+mai 04, 2017 1:41:41 PM org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource readOnly
+INFOS: Disabling testOnBorrow since no validation query is provided
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'book'
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=panier-pu)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'panier'
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... BookBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... PanierBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: 2 warnings for EjbModule(path=)
+mai 04, 2017 1:41:41 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT" loaded.
+mai 04, 2017 1:41:41 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:41:42 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=book-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 437ms
+mai 04, 2017 1:41:42 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=panier-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 29ms
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=BookBeanLocalBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean!car.tp4.entity.BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=PanierBeanLocalBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean!car.tp4.entity.PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:41:42 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+mai 04, 2017 1:41:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mai 04, 2017 1:41:42 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mai 04, 2017 1:41:42 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mai 04, 2017 1:41:42 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mai 04, 2017 1:41:42 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 198 ms.
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:41:42 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT)
+mai 04, 2017 1:41:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT.war has finished in 2 299 ms
+mai 04, 2017 1:41:43 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+mai 04, 2017 1:41:43 PM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+mai 04, 2017 1:41:43 PM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2446 ms
+mai 04, 2017 1:41:53 PM null
+INFOS: Starting OpenJPA 2.4.0-nonfinal-1598334
+mai 04, 2017 1:41:53 PM org.hsqldb.persist.Logger logInfoEvent
+INFOS: Checkpoint start
+mai 04, 2017 1:41:53 PM org.hsqldb.persist.Logger logInfoEvent
+INFOS: checkpointClose start
+mai 04, 2017 1:41:53 PM org.hsqldb.persist.Logger logInfoEvent
+INFOS: checkpointClose end
+mai 04, 2017 1:41:53 PM org.hsqldb.persist.Logger logInfoEvent
+INFOS: Checkpoint end - txts: 1
+mai 04, 2017 1:41:53 PM null
+INFOS: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+mai 04, 2017 1:41:53 PM null
+INFOS: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+mai 04, 2017 1:41:54 PM null
+INFOS: The Entity "car.tp4.entity.Panier" was enhanced at level "1 504 673", but the current level of enhancement is "1 591 689". 
+mai 04, 2017 1:41:54 PM null
+INFOS: A down level Entity was detected and logged. Please enable RUNTIME trace to see all down level Entities.
+mai 04, 2017 1:42:23 PM null
+INFOS: Starting OpenJPA 2.4.0-nonfinal-1598334
+mai 04, 2017 1:42:23 PM null
+INFOS: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+mai 04, 2017 1:42:23 PM null
+INFOS: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+mai 04, 2017 1:42:23 PM null
+INFOS: The Entity "car.tp4.entity.Panier" was enhanced at level "1 504 673", but the current level of enhancement is "1 591 689". 
+mai 04, 2017 1:42:23 PM null
+INFOS: A down level Entity was detected and logged. Please enable RUNTIME trace to see all down level Entities.
+mai 04, 2017 1:43:32 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement du contexte [] a démarré
+mai 04, 2017 1:43:32 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:43:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [HSQLDB Timer @5f5bedef] but has failed to stop it. This is very likely to create a memory leak.
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb PanierBean: EjbDeployment(deployment-id=PanierBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb BookBean: EjbDeployment(deployment-id=BookBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=book-pu)
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'book'
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=panier-pu)
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'panier'
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... PanierBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... BookBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: 2 warnings for EjbModule(path=)
+mai 04, 2017 1:43:33 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT" loaded.
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:43:33 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=book-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 11ms
+mai 04, 2017 1:43:33 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=panier-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 8ms
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=PanierBeanLocalBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean!car.tp4.entity.PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=BookBeanLocalBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean!car.tp4.entity.BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:43:33 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+mai 04, 2017 1:43:33 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mai 04, 2017 1:43:33 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mai 04, 2017 1:43:33 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mai 04, 2017 1:43:33 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mai 04, 2017 1:43:33 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 50 ms.
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:43:33 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT)
+mai 04, 2017 1:43:33 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement de ce contexte est terminé
+mai 04, 2017 1:45:17 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement du contexte [] a démarré
+mai 04, 2017 1:45:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb BookBean: EjbDeployment(deployment-id=BookBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb PanierBean: EjbDeployment(deployment-id=PanierBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=book-pu)
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'book'
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=panier-pu)
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'panier'
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... BookBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... PanierBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: 2 warnings for EjbModule(path=)
+mai 04, 2017 1:45:18 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT" loaded.
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:45:18 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=book-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 12ms
+mai 04, 2017 1:45:18 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=panier-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 10ms
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=BookBeanLocalBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean!car.tp4.entity.BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=PanierBeanLocalBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean!car.tp4.entity.PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:45:18 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+mai 04, 2017 1:45:18 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mai 04, 2017 1:45:18 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mai 04, 2017 1:45:18 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mai 04, 2017 1:45:18 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mai 04, 2017 1:45:18 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 58 ms.
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:45:18 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT)
+mai 04, 2017 1:45:18 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement de ce contexte est terminé
+mai 04, 2017 1:45:32 PM null
+INFOS: Starting OpenJPA 2.4.0-nonfinal-1598334
+mai 04, 2017 1:45:32 PM null
+INFOS: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+mai 04, 2017 1:45:32 PM null
+INFOS: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+mai 04, 2017 1:45:32 PM null
+INFOS: The Entity "car.tp4.entity.Book" was enhanced at level "1 504 673", but the current level of enhancement is "1 591 689". 
+mai 04, 2017 1:45:32 PM null
+INFOS: A down level Entity was detected and logged. Please enable RUNTIME trace to see all down level Entities.
+mai 04, 2017 1:45:47 PM null
+INFOS: Starting OpenJPA 2.4.0-nonfinal-1598334
+mai 04, 2017 1:45:47 PM null
+INFOS: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+mai 04, 2017 1:45:47 PM null
+INFOS: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
+mai 04, 2017 1:45:47 PM null
+INFOS: The Entity "car.tp4.entity.Book" was enhanced at level "1 504 673", but the current level of enhancement is "1 591 689". 
+mai 04, 2017 1:45:47 PM null
+INFOS: A down level Entity was detected and logged. Please enable RUNTIME trace to see all down level Entities.
+mai 04, 2017 1:46:07 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement du contexte [] a démarré
+mai 04, 2017 1:46:07 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb PanierBean: EjbDeployment(deployment-id=PanierBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb BookBean: EjbDeployment(deployment-id=BookBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=book-pu)
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'book'
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=panier-pu)
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'panier'
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit panier-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... PanierBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: WARN ... BookBean:	@Local on a bean which doesnt implement an interface. Use @LocalBean instead.
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.ReportValidationResults logResults
+AVERTISSEMENT: 2 warnings for EjbModule(path=)
+mai 04, 2017 1:46:08 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT" loaded.
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT
+mai 04, 2017 1:46:08 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=book-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 15ms
+mai 04, 2017 1:46:08 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=panier-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 32ms
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=PanierBeanLocalBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean!car.tp4.entity.PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//PanierBean) --> Ejb(deployment-id=PanierBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=BookBeanLocalBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean!car.tp4.entity.BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean) --> Ejb(deployment-id=BookBean)
+mai 04, 2017 1:46:08 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+mai 04, 2017 1:46:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+mai 04, 2017 1:46:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [CdiPlugin]
+mai 04, 2017 1:46:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFOS: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+mai 04, 2017 1:46:08 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFOS: All injection points were validated successfully.
+mai 04, 2017 1:46:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 36 ms.
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=PanierBean, ejb-name=PanierBean, container=Default Stateless Container)
+mai 04, 2017 1:46:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/m1/adansar/Bureau/TP_JEE/car_tp4/target/apache-tomee/webapps/ROOT)
+mai 04, 2017 1:46:08 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement de ce contexte est terminé
