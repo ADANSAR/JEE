@@ -1,6 +1,6 @@
-## TP4 - Book library
+## Book library
 
-This project is a lightweight and easy-to-use skeleton to create a JEE application that uses [Apache TomEE](http://openejb.apache.org/apache-tomee.html), a complete JEE server based on Tomcat.
+This project is a small projet for book library management.
 
 ### Structure
 
